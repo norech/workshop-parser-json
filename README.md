@@ -503,7 +503,7 @@ printf("str before = %s\n", str);
 printf("valid token = %d\n", parse_array(&str, &output_array));
 printf("str after = %s\n", str);
 printf("output value 0 = %s\n", output_array.value);
-printf("output value 1 = %s\n", output_array.next->value);
+printf("output value 1 = %p\n", output_array.next);
 ```
 
 celle ci doit retourner:
