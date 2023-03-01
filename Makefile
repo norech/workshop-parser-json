@@ -9,7 +9,7 @@ CC = gcc
 
 AR = ar rc
 
-CFLAGS = -W -Wall -Werror -pedantic -I./include
+CFLAGS = -W -Wall -Werror -pedantic -I./include -I./exercices
 
 CFLAGS_TEST = ${CFLAGS} --coverage
 
