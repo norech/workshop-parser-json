@@ -220,8 +220,8 @@ false
 
 **Aide:** Remarquez quelle est la valeur de `output_bool` dans le cas suivant:
 ```c
-bool *output_bool = false;
-bool **ptr = &output_bool;  // magie
+bool output_bool = false;
+bool *ptr = &output_bool;  // magie
 *ptr = true;
 printf("%d", output_bool);  // ou plutôt sorcellerie ?
 ```
