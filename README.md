@@ -2,7 +2,7 @@
 
 WORKSHOP - Alexis CHERON - 2023
 
-[Merci cloner le repo]()
+[Merci de cloner le repo localement pour le bon déroulement du workshop!](https://github.com/norech/workshop-parser-json).
 
 ## Introduction
 
