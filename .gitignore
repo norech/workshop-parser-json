@@ -1,0 +1,11 @@
+*.out
+*.a
+*.o
+\#*\#
+*~
+.\#*
+*.gc*
+unit_tests
+vgcore.*
+*ignore.c
+example_program/example_program
