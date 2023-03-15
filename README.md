@@ -334,7 +334,7 @@ str after = 42
 char *str = "42\"hello world\"";
 
 printf("str before = %s\n", str);
-printf("valid token = %d\n", token_string(&str));
+printf("valid token = %s\n", token_string(&str));
 printf("str after = %s\n", str);
 ```
 
